@@ -20,5 +20,5 @@ python3 main.py
 ```
 
 # Download
-> You can download the app from [Here](#)
+> You can download the app from [Here](#)                 
 > Wait for download link...
