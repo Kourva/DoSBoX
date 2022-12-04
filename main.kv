@@ -1,0 +1,44 @@
+<ActionBar>
+    pos_hint: {"top":1}
+    background_color: "#FF0000"
+    ActionView:
+        use_separator: True
+        ActionPrevious:
+            title: '[b]Do[color=#00FF00]SB[/color]oX[/b]'
+            markup: True
+            app_icon: 'icon.png'
+            with_previous: False
+
+<TextInput>
+    size_hint: (0.3, None)
+    height: "30dp"
+    background_color: "#220000"
+    foreground_color: "#AAAAAA"
+    cursor_color: "#660000"
+    cursor_width: "10sp"
+    use_bubble: True
+    do_wrap: False
+    bold: True
+ 
+<ScrollView>
+    do_scroll_x: False
+    do_scroll_y: True
+    size_hint: (0.6, 0.9)
+    pos_hint: {"left":1}
+
+    Label:
+        id: label
+        size_hint_y: None
+        height: self.texture_size[1]
+        text_size: self.width, None
+        padding: 10, 10
+        markup: True
+
+<Button>
+    size_hint: (0.3, None)
+    height: "30dp"
+    background_color: "#660000"
+    foreground_color: "#AAAAAA"
+    cursor_color: "#660000"
+    cursor_width: "10sp"
+    bold: True   
