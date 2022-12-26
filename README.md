@@ -21,4 +21,4 @@ python3 main.py
 
 # Download
 > You can download the app from [Here](https://github.com/Kourva/DoSBoX/releases/download/v1.0/DoSBoX-1.0-arm64-v8a_armeabi-v7a-debug.apk)              
-> Wait for download link...
+> Thanks
