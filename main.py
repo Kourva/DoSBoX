@@ -1,4 +1,4 @@
-## DedSec APP
+## DosBox APP
 
 # IMPORTS
 import random
